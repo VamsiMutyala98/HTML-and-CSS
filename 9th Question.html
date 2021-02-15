@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>9th Question</title>
+        <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                display: flex;
+                height: 100vh;
+                align-items: center;
+                justify-content: center;
+                background-color: #222f35;
+            }
+            .fun {
+                position: relative;
+                width: 300px;
+                height:300px;
+                display: inline-block;
+                border-radius: 8px;
+                overflow: hidden;
+                margin: 15px;
+                border: 2px solid #fff;
+            }
+            img{
+                width:100%;
+                transition: all linear 0.7s;
+            }
+            img.hover-img{
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 0;
+            }
+            .fun:hover img{
+                opacity: 0;
+            }
+            .fun:hover img.hover-img{
+                opacity: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="fun">
+            <img src="https://picsum.photos/id/1015/200/300">
+            <img class="hover-img" src="https://picsum.photos/id/1016/200/300">
+        </div>
+    </body>
+</html>

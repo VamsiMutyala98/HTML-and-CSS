@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>12th Question</title>
+        <style>
+            ol { 
+                counter-reset: item 
+                }
+            li { 
+                display: block 
+                }
+            li:before { content: counters(item, ".") " "; 
+            counter-increment: item 
+            }
+        </style>
+    </head>
+    <body>
+        <div><ol>
+            <li>item</li>
+            <li>item
+                <ol >
+                    <li>item</li>
+                    <li>item</li>
+                    <li>item 
+                        <ol>
+                            <li>item</li>
+                            <li>item</li>
+                            <li>item</li>
+                        </ol>
+                    </li>
+                    <li>item</li>
+                </ol>
+            </li>
+            <li>item</li>
+            <li>item</li>
+        </ol></div>
+        <div>
+                <ol>
+                    <li>item</li>
+                    <li>item</li>
+                </ol>
+        </div>
+    </body>
+</html>
