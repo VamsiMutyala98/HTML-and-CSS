@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fun {
+    height:80px;
+}
+.main {
+    width: 33.33%;
+    height: 100%;
+    float:left;
+    background-color:white;
+    color: black;
+}
+.quality {
+    padding-left: 20px;
+    font-size: 32px;
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+.quality::first-letter{
+    color:green;
+    font-size:42px ;
+}
+.keys {
+    padding-top: 40px;
+    padding-left:70px ;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex; 
+}
+li{
+    width:100px;
+    padding-right: 10px;
+}
+.drum {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.drum:hover{
+    color: green;
+}
+.ref2:hover {
+    color: limegreen;
+}
+label {
+    margin-right: 15px;
+    font-family: sans-serif;
+}
+.ref {
+    padding-left: 180px;
+    padding-top: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+a.ref1 {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+.new {
+    width: 100%;
+    background-color: black;
+    height: 650px;
+}
+.slide {
+    width:95%;
+    height:550px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url("one plus.jpg");
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px white;
+    margin-top: 30px;
+    animation: slider 20s infinite linear ;
+}
+@keyframes slider {
+    0% {
+        background-image: url("one plus.jpg");
+    }
+    20% {
+        background-image: url("iphone.jpg");
+    }
+    40% {
+        background-image: url("samsung.jpg");
+    }
+    60% {
+        background-image: url("redmi.jpg");
+    }
+    80%{
+        background-image: url("realme.jpg");
+    }
+}
+.phones {
+    height: 500px;
+    background: green;
+}
+.eq {
+    float: left;
+}
+.im1 {
+    width: 25%;
+    height:250px;
+    background-color:black;
+}
+.i {
+    width:45%;
+    height:65%;
+    margin: 20px;
+    border:1px solid black;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.i1 {
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.xx {
+    text-decoration: none;
+    color: white;
+}
+.im2 {
+    width: 25%;
+    height:250px;
+    background-color: black;
+}
+.s {
+    width:45%;
+    height:65%;
+    margin: 20px;
+    border:1px solid black;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.s1 {
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.im3 {
+    width: 25%;
+    height:250px;
+    background-color: black;
+}
+.o {
+    width:45%;
+    height:65%;
+    margin: 20px;
+    border:1px solid black;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.o1 {
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.im4 {
+    width: 25%;
+    height:250px;
+    background-color: black;
+}
+.r {
+    width:45%;
+    height:65%;
+    margin: 20px;
+    border:1px solid black;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.r1 {
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.eq1 {
+    float: left;
+}
+.im5 {
+    width: 25%;
+    height:250px;
+    background-color:black;
+}
+.re {
+    width:45%;
+    height:65%;
+    margin: 20px;
+    border:1px solid black;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.re1 {
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.im6 {
+    width: 25%;
+    height:250px;
+    background-color: black;
+}
+.n {
+    width:45%;
+    height:65%;
+    margin: 20px;
+    border:1px solid black;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.n1 {
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.im7 {
+    width: 25%;
+    height:250px;
+    background-color: black;
+}
+.m {
+    width:45%;
+    height:65%;
+    margin: 20px;
+    border:1px solid black;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.m1 {
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.im8 {
+    width: 25%;
+    height:250px;
+    background-color: black;
+}
+.l {
+    width:45%;
+    height:65%;
+    margin: 20px;
+    border:1px solid black;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.l1 {
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.lap {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+}
+.laptop {
+    width:80%;
+    height:550px;
+    position: absolute;
+    background-image: url("Laptop.jpg");
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px white;
+    margin-top: 80px;
+    margin-left:10%;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+    text-align: right;
+    padding-top: 150px;
+    padding-right:70px;
+}
+.Lapt {
+    width:100%;
+    height: 200px;
+}
+.Lapto{
+    width:25%;
+    height: 200px;
+    background-color: white;
+    float:left;
+}
+.dell{
+    width: 70%;
+    height: 70%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.dell1 {
+    text-align: center;
+    text-decoration: none;
+    font-size:x-large;
+    margin-left:150px;
+    color:black;
+    font-family: sans-serif;
+}
+.acer{
+    width: 70%;
+    height: 70%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.acer1 {
+    text-align: center;
+    text-decoration: none;
+    font-size:x-large;
+    margin-left:150px;
+    color:black;
+    font-family: sans-serif;
+}
+.hp{
+    width: 70%;
+    height: 70%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.hp1 {
+    text-align: center;
+    text-decoration: none;
+    font-size:x-large;
+    margin-left:150px;
+    color:black;
+    font-family: sans-serif;
+}
+.lenovo{
+    width: 70%;
+    height: 70%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.lenovo1 {
+    text-align: center;
+    text-decoration: none;
+    font-size:x-large;
+    margin-left:130px;
+    color:black;
+    font-family: sans-serif;
+}
+.Lapt1 {
+    width:100%;
+    height: 200px;
+    border-bottom:1px solid gray;
+}
+.Lapto1{
+    width:25%;
+    height: 200px;
+    background-color: white;
+    float:left;
+}
+.macbook{
+    width: 70%;
+    height: 70%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.macbook1 {
+    text-align: center;
+    text-decoration: none;
+    font-size:x-large;
+    margin-left:120px;
+    color:black;
+    font-family: sans-serif;
+}
+.microsoft{
+    width: 70%;
+    height: 70%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.microsoft1 {
+    text-align: center;
+    text-decoration: none;
+    font-size:x-large;
+    margin-left:120px;
+    color:black;
+    font-family: sans-serif;
+}
+.sony{
+    width: 70%;
+    height: 70%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.sony1 {
+    text-align: center;
+    text-decoration: none;
+    font-size:x-large;
+    margin-left:140px;
+    color:black;
+    font-family: sans-serif;
+}
+.toshiba{
+    width: 70%;
+    height: 70%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.toshiba1 {
+    text-align: center;
+    text-decoration: none;
+    font-size:x-large;
+    margin-left:130px;
+    color:black;
+    font-family: sans-serif;
+}
+.magic {
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    position: absolute;
+}
+.space {
+    width:100%;
+    height: 30px;
+    background-color:white;
+    border-top:1px solid gray;
+}
+.Back_to_top{
+    width:100%;
+    height: 50px;
+    background-color: rgb(71, 71, 88);
+    color: white;
+    
+}
+.Back {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+p{
+    padding-left: 50%;
+    padding-top: 20px;
+}
+.bottom{
+    width: 100%;
+    height: 300px;
+    background-color:white;
+}
+.some{
+    float: left;
+}
+.first-div{
+    width: 25%;
+    height: 300px;
+    background-color:rgb(40, 40, 68);
+    color:white;
+    padding-top: 110px;
+    padding-left:180px;
+    font-family: sans-serif;
+}
+.Un{
+    width:100%;
+    list-style: none;
+    display:inline-table;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.Un1{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.second-div{
+    width: 25%;
+    height: 300px;
+    background-color: rgb(40, 40, 68);
+    color: white;
+    padding-top: 110px;
+    padding-left:130px;
+    font-family: sans-serif;
+}
+.Un2{
+    width:100%;
+    list-style: none;
+    display:inline-table;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.Un3{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.third-div{
+    width: 25%;
+    height: 300px;
+    background-color: rgb(40, 40, 68);
+    color: white;
+    padding-top: 110px;
+    padding-left: 60px;
+    font-family: sans-serif;
+}
+.Un4{
+    width:100%;
+    list-style: none;
+    display:inline-table;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.Un5{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.fourth-div{
+    width: 25%;
+    height: 300px;
+    background-color: rgb(40, 40, 68);
+    color:white;
+    padding-top: 110px;
+    font-family: sans-serif;
+}
+.Un6{
+    width:100%;
+    list-style: none;
+    display:inline-table;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.Un7{
+    width: 100%;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-left: 40%;
+    font-family: sans-serif;
+    font-size: 12px;
+}
